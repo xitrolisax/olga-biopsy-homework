@@ -1,14 +1,14 @@
 export const neuronSectionData = [
   {
     type: "neuron",
-    id: "torus",
+    id: "dendritas",
     title: "Axon",
     content:
       "The axon is the neuron’s communication pathway, transmitting electrical signals (action potentials) from the cell body to other neurons, muscles, or glands. It’s often covered by a myelin sheath, which speeds up signal transmission.",
   },
   {
     type: "neuron",
-    id: "dendritas",
+    id: "torus",
     title: "Dendrites",
     content:
       "These are the dendrites of the neuron, which function as the primary receivers of incoming signals from other neurons. They transfer this information to the cell body, where it is processed and passed on to other parts of the nervous system.",
