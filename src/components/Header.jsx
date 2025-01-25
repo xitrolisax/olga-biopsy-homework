@@ -24,10 +24,10 @@ const HeaderWrapper = styled.header`
 const Logo = styled.a`
   font-size: 20px;
   font-weight: 900;
-  color: currentColor;
+  color: #213547;
   &:hover,
   &:active {
-    color: currentColor; /* Сиреневый при наведении */
+    color: #213547; /* Сиреневый при наведении */
   }
 
   @media (max-width: 800px) {
@@ -47,9 +47,9 @@ const Nav = styled.nav`
     font-weight: 800;
     text-decoration: none;
     transition: color 0.3s ease;
-    color: currentColor;
+    color: #213547;
     &:hover {
-      color: currentColor;
+      color: #213547;
     }
 
     @media (max-width: 800px) {

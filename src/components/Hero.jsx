@@ -51,12 +51,12 @@ const Button = styled.a`
   display: block;
   width: fit-content;
   font-size: 1.5rem;
-  color: currentColor;
+  color: #213547;
   box-shadow: 0px 0px 15px #6666772b;
   text-align: center;
 
   &:hover {
-    color: currentColor;
+    color: #213547;
   }
 `;
 
