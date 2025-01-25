@@ -11,6 +11,7 @@ import styled from "styled-components";
 import { neuronSectionData } from "./neuronSectionData";
 import { ModelProvider } from "./ModelContext";
 import { brainSectionData } from "./brainSectionData";
+import { Analytics } from "@vercel/analytics/react";
 
 const Wrapper = styled.div`
   padding: 20px 30px;
@@ -125,6 +126,7 @@ const App = () => {
           </RightPanel>
         </FlexContainer>
       </ModelProvider>
+      <Analytics />
     </Wrapper>
   );
 };
