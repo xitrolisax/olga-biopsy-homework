@@ -20,6 +20,7 @@ const RightPanelStyle = styled.div`
   * {
     margin: 0px;
     line-height: 100%;
+    color: #213547;
   }
 
   p {
