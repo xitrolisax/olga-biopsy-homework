@@ -24,6 +24,7 @@ a:hover {
 
 * {
   scroll-behavior: smooth;
+  color: #213547;
 }
 
 body {
